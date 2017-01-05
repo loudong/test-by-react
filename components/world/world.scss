@@ -1,0 +1,8 @@
+
+$lightgrey:  white black !default;
+h1{
+  color: nth($lightgrey,1);
+  &:hover{
+    color:nth($lightgrey,2);
+  }
+}
